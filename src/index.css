@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: "twk" ;
+    src: url(./Fonts/twk-everett-updated/TWKEverett-Medium.otf) format("opentype");
+}

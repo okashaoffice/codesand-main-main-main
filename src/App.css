@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  background-color: black;
+}
+.navfont {
+  font-family: "Inter Tight", sans-serif;
+}
+.scrollhide::-webkit-scrollbar {
+  overflow-x: hidden;
+}
+
+.borderanimation:hover {
+  animation: slide 6s linear forwards;
+}
+
+@keyframes slide {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.textanimation {
+  -webkit-text-stroke-width: 0.0001px;
+  -webkit-text-stroke-color: #dcff50;
+}
+.textwhite {
+  -webkit-text-stroke-width: 0.0001px;
+  -webkit-text-stroke-color: #f5ffcb;
+}
+
+.noScrollbar::-webkit-scrollbar {
+  display: none;
+}
+.noScrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.font {
+  font-family: "twk";
+}
